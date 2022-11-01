@@ -172,15 +172,16 @@ body{
   display: flex;
   justify-content: space-between;}
 
+.champ input{
+  padding-left: 15px;
+  width:70%;
+  height: 30px;
+}
 .champ button{
   font-size: 15px;
   padding-right: 15px;
   text-decoration: none;
   color: #000;
-}
-.champ button{
-  font-size: 15px;
-  padding-right: 15px;
 }
 .sign_footer button{
   padding-right: 15px;
@@ -266,7 +267,7 @@ body{
 @media screen and (max-width:520px) {
   .footer-content-section{
     flex-direction: column;
-    padding-left: 40%;
+    text-align: center;
   }
 }
 
